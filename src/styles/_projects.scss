@@ -42,9 +42,31 @@
     width: 48%;
   }
 }
-.images-right {
+.images-left {
   @media only screen and (min-width: $cut) {
     float: center;
+    width: 48%;
+  }
+  img {
+    @media only screen and (min-width: $cut) {
+      float: right;
+    }
+  }
+}
+.images-center {
+  @media only screen and (min-width: $cut) {
+    float: left;
+    width: 48%;
+  }
+  img {
+    @media only screen and (min-width: $cut) {
+      float: right;
+    }
+  }
+}
+.images-right {
+  @media only screen and (min-width: $cut) {
+    float: left;
     width: 48%;
   }
   img {
