@@ -9,9 +9,47 @@
     width: 80%;
   }
 }
-
-.user-projects {
+.user-projects-left {
   margin: 20px auto;
+  float: left;
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  h5 {
+    margin: 0;
+  }
+  li {
+    color: $main;
+    font-size: 1.1rem;
+  }
+  p {
+    margin-right: 5px;
+  }
+}
+.user-projects-center {
+  margin: 20px auto;
+  float: center;
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  h5 {
+    margin: 0;
+  }
+  li {
+    color: $main;
+    font-size: 1.1rem;
+  }
+  p {
+    margin-right: 5px;
+  }
+}
+.user-projects-right {
+  margin: 20px auto;
+  float: right;
   img {
     max-width: 100%;
     height: auto;
