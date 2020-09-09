@@ -11,26 +11,6 @@
 }
 .user-projects-left {
   margin: 20px auto;
-  float: left;
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  h5 {
-    margin: 0;
-  }
-  li {
-    color: $main;
-    font-size: 1.1rem;
-  }
-  p {
-    margin-right: 5px;
-  }
-}
-.user-projects-center {
-  margin: 20px auto;
-  float: center;
   img {
     max-width: 100%;
     height: auto;
@@ -49,7 +29,6 @@
 }
 .user-projects-right {
   margin: 20px auto;
-  float: right;
   img {
     max-width: 100%;
     height: auto;
@@ -67,6 +46,7 @@
   }
 }
 
+
 .contents {
   @media only screen and (min-width: $cut) {
     margin-left: 0;
@@ -80,31 +60,9 @@
     width: 48%;
   }
 }
-.images-left {
-  @media only screen and (min-width: $cut) {
-    float: center;
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: right;
-    }
-  }
-}
-.images-center {
-  @media only screen and (min-width: $cut) {
-    float: left;
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: right;
-    }
-  }
-}
 .images-right {
   @media only screen and (min-width: $cut) {
-    float: left;
+    float: center;
     width: 48%;
   }
   img {
